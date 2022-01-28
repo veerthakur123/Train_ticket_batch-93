@@ -1,0 +1,52 @@
+body{
+background-image : url("train.jpg");
+background-repeat: no-repeat;
+background-size : 100% 55%;
+}
+h2{
+	text-align : center;
+	color : black;
+	font-family: calibri;}
+h3{
+	text-align : center;
+	color : aqua;
+	font-family:calibri;
+	font-style : italic;}
+img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;}
+.center{
+	margin : auto;
+	width : 80%;
+	border-radius : 25px ;
+	
+}
+
+.container{
+	position: relative;
+	text-align: center;
+	font-style:italic;
+	font-size:50px;
+	color: aqua;
+}
+.centered{
+	position : absolute;
+	top: 45%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+.header
+{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form-box
+{
+	background: rgba(0,0,0,0.5);
+	width : 65%;
+	
+	margin: 0 auto;
+}
